@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CountryInfoRepository extends JpaRepository<CountryInfo, Integer> {
     // Додаткові методи, якщо потрібно
+    
 }
